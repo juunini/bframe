@@ -16,11 +16,9 @@ module.exports = {
   setupFilesAfterEnv: [
     './jest.setup.ts',
     'jest-plugin-context/setup',
-    'jest-useragent-mock',
   ],
   testPathIgnorePatterns: [
     '<rootDir>/node_modules/',
-    '<rootDir>/.yarn/',
     '<rootDir>/dist/',
     '<rootDir>/es/',
     '<rootDir>/lib/',
@@ -40,7 +38,6 @@ module.exports = {
   },
   transformIgnorePatterns: [
     '/node_modules/',
-    '/.yarn/',
     '/dist/',
     '/es/',
     '/lib/',
@@ -50,7 +47,6 @@ module.exports = {
   ],
   coveragePathIgnorePatterns: [
     '/node_modules/',
-    '/.yarn/',
     '/dist/',
     '/es/',
     '/lib/',

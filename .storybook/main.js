@@ -13,6 +13,9 @@ module.exports = {
   core: {
     builder: 'webpack5'
   },
+  features: {
+    previewMdx2: true,
+  },
   typescript: { reactDocgen: false },
   webpackFinal: (config) => {
     config.resolve.alias = {

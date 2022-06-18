@@ -16,7 +16,11 @@
     "strict": true,
     "paths": {
       "bframe": ["./src/index.ts"],
-    }
+    },
+    "types": [
+      "babylonjs",
+      "jest"
+    ]
   },
   "include": ["./src"]
 }

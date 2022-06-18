@@ -7,11 +7,12 @@ import commonJS from 'rollup-plugin-commonjs'
 import visualizer from 'rollup-plugin-visualizer'
 import replace from '@rollup/plugin-replace'
 
-const external = ['react', 'react-dom', 'bframe']
+const external = ['react', 'react-dom', '@babylonjs/core', 'bframe']
 
 const globals = {
   react: 'React',
   'react-dom': 'ReactDOM',
+  '@babylonjs/core': 'BabylonjsCore',
   'bframe': 'Bframe',
 }
 
